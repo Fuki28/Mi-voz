@@ -25,7 +25,9 @@ target_sources(MiVoz PRIVATE
     Source/PluginProcessor.cpp
     Source/PluginProcessor.h
     Source/PluginEditor.cpp
-    Source/PluginEditor.h)
+    Source/PluginEditor.h
+    Source/MiVozUI.h
+    Source/SpectralDenoiser.h)
 
 target_compile_definitions(MiVoz PUBLIC
     JUCE_WEB_BROWSER=0
